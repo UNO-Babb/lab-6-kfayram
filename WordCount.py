@@ -14,9 +14,9 @@ def main():
     words = line.split()
     for w in words:
       wordCount = wordCount + 1
-    #letterCount = len(line) #for some reason this is only counting line 3 for character count count
+
     letter = len(line)
-    letterCount = sum(letter)
+    letterCount = letterCount + letter
 
 
 
